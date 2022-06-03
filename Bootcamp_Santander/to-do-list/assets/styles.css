@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(188, 199, 206);
+}
+
+.container h1{
+	color: rgb(90, 41, 41);
+}
+.container input{
+	border: .5px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+.container button{
+	background-color: rgb(234, 250, 246);
+	color: aqua;
+	border:.5px solid aqua;
+	border-radius: 30px;
+	padding: 8px;
+}
+
+.tasks{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.task p{
+	margin-bottom: 5px;
+}
+
+:checked + label {
+	text-decoration: line-through;
+	color: grey;
+  }
+
+.box{
+	  display: flex;
+ }
