@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hanewaka",
+      "imageUrl": "./assets/images/hanekawa.jpg",
+      "email": "Hanekawa@gmail.com",
+      "emailJob": "hanekawa@job.com"
+    },
+    {
+      "id": 2,
+      "name": "Hachikuji",
+      "imageUrl": "./assets/images/hachikuji.jpg",
+      "email": "hachikuji@gmail.com",
+      "emailJob": "hachikuji@job.com"
+    },
+    {
+      "id": 3,
+      "name": "Shinobu",
+      "imageUrl": "./assets/images/shinobu.jpg",
+      "email": "oshinoshinobu@gmail.com",
+      "emailJob": "shinobu@job.com"
+    }
+  ]
+}

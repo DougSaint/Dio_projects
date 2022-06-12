@@ -1,0 +1,41 @@
+<div class="container mainbox">
+<form class="form-user needs-validation" novalidate [formGroup] ="form">
+	<div class="col-md-4">
+		<label for="username" class="form-label">Nome do usuario</label>
+		<input type="text" class="form-control" id="username" formControlName="name">
+		<div class="valid-feedback">
+		  Looks good!
+		</div>
+	  </div>
+
+
+	  <div class="col-md-4">
+		<label for="email" class="form-label">Email</label>
+		<div class="input-group has-validation">
+		  <input type="text" class="form-control" id="email"  formControlName="email">
+		  <div class="invalid-feedback">
+			Please choose a email.
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="col-md-4">
+		<label for="email-job" class="form-label">Email de trabalho</label>
+		<div class="input-group has-validation">
+		  <input type="text" class="form-control" id="email-job"  formControlName="emailJob">
+		  <div class="invalid-feedback">
+			Please choose a email for job.
+		  </div>
+		</div>
+	  </div>
+
+
+	  <div class="col-md-6">
+		<label for="image-url" class="form-label">Url da imagem:</label>
+		<input type="text" class="form-control" id="image-url"  formControlName="imageUrl">
+	  </div>
+	  <div class="col-12 mt-3">
+		<button class="btn btn-primary" type="submit" (click) ="onSubmit()" >Salvar</button>
+	  </div>
+</form>
+</div>

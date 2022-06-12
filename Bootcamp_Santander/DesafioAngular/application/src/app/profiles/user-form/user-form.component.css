@@ -1,0 +1,11 @@
+.mainbox{
+justify-content: center;
+align-items: center;
+background-color: antiquewhite;
+display: flex;
+}
+
+.form-user{
+	width: 70%;
+	margin-top: 3em;
+}
