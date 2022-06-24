@@ -1,0 +1,21 @@
+<div class="card">
+	<div class="card-header">Filtro</div>
+	<div class="card-body">
+			<label for= "name">Nome:</label>
+			<input type="text" id="name" class ="form-control" [(ngModel)]="search">
+	</div>
+
+</div>
+<div class="row" *ngIf="coins$ | async; else loading">
+	<div class="col-md-4" *ngFor="let coin of coins$ | async | filter:search" >
+			<app-coins [coin]="coin"></app-coins>
+	</div>
+</div>
+<ng-template #loading>
+	<div class="d-flex align-items-center justify-content-center">
+		<img src="../../../../assets/loading.svg" alt="">
+	</div>
+
+</ng-template>
+
+
