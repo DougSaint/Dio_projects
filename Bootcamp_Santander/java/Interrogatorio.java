@@ -41,5 +41,6 @@ public class Interrogatorio {
 				System.out.println("Inocente");
 			}
 		}
+		sc.close();
 	}
 }
