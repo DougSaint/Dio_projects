@@ -3,7 +3,7 @@ package POO.entities;
 public class Account {
 	private Integer number;
 	private String holder;
-	private Double balance;
+	protected Double balance; // pode ser alterado por outras classes do mesmo pacote
 
 	public Account(){}
 
@@ -34,7 +34,7 @@ public class Account {
 	}
 
 	public void withdraw(double amount) {
-		balance -= amount;
+		balance -= amount + 5.0;
 	}
 
 	public void deposit(double amount){
