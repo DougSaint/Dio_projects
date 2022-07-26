@@ -1,10 +1,10 @@
-package POO.application;
+package POO.POO1.application;
 
 
 
-import POO.entities.Account;
-import POO.entities.BusinessAccount;
-import POO.entities.SavingsAccount;
+import POO.POO1.entities.Account;
+import POO.POO1.entities.BusinessAccount;
+import POO.POO1.entities.SavingsAccount;
 
 public class Program {
 	public static void main(String[] args) {

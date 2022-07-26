@@ -1,4 +1,4 @@
-package POO.entities;
+package POO.POO1.entities;
 
 public class BusinessAccount extends Account{
 	private Double loanLimit;

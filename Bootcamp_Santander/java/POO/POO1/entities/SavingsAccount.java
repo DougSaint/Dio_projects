@@ -1,4 +1,4 @@
-package POO.entities;
+package POO.POO1.entities;
 
 public class SavingsAccount extends Account{
 	private Double interestRate;
